@@ -1,0 +1,138 @@
+html{
+    background-color: #12012b;
+    color: #fff;
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+.links{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    font-size: 1.8rem;
+}
+
+.links a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.link{
+    padding: 2rem 6rem;
+}
+
+.Avatar{
+    border-radius: 100%;
+    width: 24rem;
+    height: 24rem;
+
+    margin-right: 10rem;
+}
+
+.titulo{
+    font-size: 4rem;
+}
+
+.paragrafo-1{
+    margin: 4rem 0;
+}
+
+.botao{
+
+border-radius: 30px;
+background: #008bcc;
+padding: 1rem 2rem;
+color: #fff;
+text-decoration: none;
+font-size: 2rem;
+
+}
+
+.main{
+
+    margin-bottom: 5rem;
+}
+
+.itens-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer,
+section{
+    padding: 5rem;
+    max-width: 96rem;
+    margin: 0 auto;
+}
+
+h2{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.sobre{
+    background-color: #340275;
+}
+
+.projeto-imagem{
+    width: 24rem;
+    height: 18rem;
+    margin-right: 2.5rem;
+    border-radius: 0.6rem;
+}
+
+.projeto-titulo{
+    font-size: 3rem;
+}
+
+.projeto{
+    margin: 4rem 0;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 2rem;
+}
+
+footer{
+    flex-direction: column;
+}
+
+@media(max-width: 1200px){
+    .itens-center{
+        flex-direction: column;
+    }
+    footer,
+    section{
+        padding: 5rem;
+    }
+
+    .main{
+        margin-bottom: 2rem;
+    }
+
+    .titulo{
+        font-size: 3rem;
+    }
+
+    .projeto-imagem{
+        width: 38rem;
+        height: auto;
+    }
+
+    .links{
+        justify-content: center;
+    }
+
+    .Avatar{
+        width: 18rem;
+        height: 18rem;
+
+        margin-right: 0;
+    }
+}
